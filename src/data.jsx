@@ -90,8 +90,8 @@ export const personalInfo = [
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Villupuram',
+    title: 'Location : ',
+    description: 'TamilNadu',
   },
 
   {
@@ -108,12 +108,6 @@ export const personalInfo = [
 
   {
     id: 9,
-    title: 'Linkedin : ',
-    description: 'https://www.linkedin.com/in/santhosh-s-3b409826b',
-  },
-
-  {
-    id: 10,
     title: 'Langages : ',
     description: 'Tamil, English',
   },
@@ -134,15 +128,10 @@ export const stats = [
 
   {
     id: 3,
-    no: '1',
-    title: 'Happy <br /> Customers',
+    no: 'Degree',
+    title: 'B.E <br /> Completed ',
   },
 
-  {
-    id: 4,
-    no: '0',
-    title: ' Awards <br /> Won',
-  },
 ];
 
 export const resume = [
@@ -150,54 +139,35 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2022-2023',
+    title: 'MERN Stack <span> at GUVI </span>',
+    desc: 'I completed MERN Stack Developer course at GUVI with good knowledge of ReactJs, NodeJs, ExpressJs and MongoDB. I love working on new and exciting technologies emerging nowadays.',
   },
-
-  {
+    {
     id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2018-2022',
+    title: 'Bachelor of Engineering <span> B.E</span>',
+    desc: 'Electronics and Communication Engineering at Mailam Engineering Collage in 2022.',
   },
 
   {
     id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2017-2018',
+    title: 'HSC <span> 12th </span>',
+    desc: 'Completed Computer Science (12th) at Alpha English Higher Secondary School in 2018.',
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2018-2022',
-    title: 'Bachelor of Engineering <span> Mailam Engineering Collage </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
-  },
-
-  {
-    id: 5,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2015-2016',
+    title: 'SSLC <span> 10th </span>',
+    desc: 'Completed 10th at Alpha English Higher Secondary School in 2016.',
   },
 ];
 
@@ -229,25 +199,25 @@ export const skills = [
   {
     id: 5,
     title: 'Express JS',
-    percentage: '60',
+    percentage: '40',
   },
 
   {
     id: 6,
     title: 'Node JS',
-    percentage: '65',
+    percentage: '35',
   },
 
   {
     id: 7,
     title: 'MongoDb',
-    percentage: '70',
+    percentage: '50',
   },
 
   {
     id: 8,
     title: 'Material UI',
-    percentage: '90',
+    percentage: '70',
   },
 ];
 

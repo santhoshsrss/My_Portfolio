@@ -1,0 +1,168 @@
+.aboutcontainer,
+.infolist,
+.stats,
+.resumecontainer {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+}
+
+.infolist {
+    row-gap: 20px;
+    margin-bottom: 32px;
+}
+.sectionsubtitle{
+    font-size: var(--h3-font-size);
+    font-weight: var(--weight-600);
+    margin-bottom: 20px;
+}
+
+.infolist .infotitle,
+.infolist .infodescription {
+    font-size: var(--small-font-size);
+}
+
+.infolist .infodescription {
+    color: var(--title-color);
+    font-weight: var(--weight-600);
+}
+
+.statsbox {
+    border: 1px solid var(--border-color);
+    padding: 20px 30px 25px;
+    border-radius: 5px;
+}
+
+.statsno {
+    color: var(--first-color);
+    font-size: var(--h1-font-size);
+    line-height: 1.2;
+}
+
+.statstitle{
+    font-size: var(--small-font-size);
+    line-height: 1.6;
+    padding-left: 45px;
+    position: relative;
+}
+.statstitle::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 30px;
+    height: 1px;
+    background-color: var(--text-color);
+}
+
+/* skill stats */
+
+.separator{
+    border-top: 1px solid var(--border-color);
+    max-width: 40%;
+    margin: 72px auto 56px;
+}
+.subtitlecenter{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skillscontainer{
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    row-gap: 48px;
+}
+.progresscircle{
+    width: 120px;
+    height: 120px;
+}
+
+.CircularProgressbar-path {
+    stroke: var(--first-color) !important;
+    stroke-linecap: butt !important;
+}
+
+.CircularProgressbar-trail {
+    stroke: var(--container-color) !important;
+}
+.CircularProgressbar-text {
+    fill: var(--title-color) !important;
+    font-family: var(--second-font);
+    font-size: var(--large-font-size) !important;
+}
+
+.skillstitle{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--weight-400);
+    text-align: center;
+    margin-top: 24px;
+}
+
+.resumeitem {
+    position: relative;
+    padding-left: 60px;
+}
+
+.resumeitem:not(:last-child)  {
+    margin-bottom: 50px;
+}
+.resumeitem::before {
+    content: '';
+    position: absolute;
+    inset-block: 0;
+    left: 20px;
+    border-left: 1px solid var(--border-color);
+}
+
+.resumeicon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--first-color);
+    color: var(--text-white);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.resumedate {
+    background-color: var(--container-color);
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: var(--tiny-font-size);
+    font-weight: var(--weight-600);
+}
+.resumesubtitle{
+    font-size: var(--large-font-size);
+    font-weight: var(--weight-500);
+    margin-block: 20px 10px;
+}
+
+.resumesubtitle span {
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-600);
+    position: relative;
+    padding-left: 26px;
+}
+
+.resumesubtitle span::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 9px;
+    width: 10px;
+    height: 2px;
+    background-color: var(--text-color);
+}
+
+.resumedescription{
+    font-size: var(--smaller-font-size);
+    line-height: 1.6;
+}
+.smallgap{
+    max-width: 40%;
+    margin: 72px auto 56px;
+}
