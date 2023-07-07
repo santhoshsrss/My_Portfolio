@@ -225,22 +225,22 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'YouTube Clone',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Video',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Tech : ',
+        desc: 'HTML, CSS, JavaScript',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'Description : ',
+        desc: 'video streaming software',
       },
       {
         icon: <FiExternalLink />,
@@ -253,22 +253,22 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Admin Dashboard',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Dashboard',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Tech : ',
+        desc: 'React, Tailwind CSS, Material UI',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React JS',
+        title: 'Description : ',
+        desc: 'Create and Update Workflows',
       },
       {
         icon: <FiExternalLink />,
