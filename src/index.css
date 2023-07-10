@@ -1,0 +1,231 @@
+@media screen and (max-width: 1400px) {
+    .container{
+        max-width: calc(100%-180px);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .grid {
+        gap: 20px;
+    }
+    .homedata{
+        padding-right: 40px;
+    }
+    .hometitle {
+        font-size: var(--big-font-size);
+    }
+    .homedescription {
+        font-size: var(--small-font-size);
+    }
+    .statstitle{
+        padding-left: 35px;
+    }
+    .statstitle::before{
+        width: 22px;
+    }
+    .skillscontainer{
+        row-gap: 32px;
+    }
+    .progresscircle{
+        width: 100px;
+        height: 100px;
+    }
+    .skillstitle{
+        margin-top: 20px;
+    }
+    .resumeicon{
+        width: 36px;
+        height: 36px;
+        line-height: 38px;
+    }
+    .resumeitem{
+        padding-left: 55px;
+    }
+    .portfoliomodal-content{
+        max-width: 600px;
+    }
+    .modalclose{
+        width: 40px;
+        height: 40px;
+    }
+
+    .forminput-group{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+    }
+    .forminput-group .forminput-div:last-child {
+        grid-column: 1/-1;
+    }  
+    .forminput-div {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 720px;
+    }
+    .home{
+        padding: 20px;
+        grid-template-columns: 5fr 7fr;
+    }
+    .homedata{
+        padding-right: 0;
+    }
+    .section{
+        padding-block: 50px;
+    }
+    .sectiontitle{
+        margin-bottom: 40px;
+    }
+    .aboutcontainer,
+    .resumecontainer,
+    .contactcontainer{
+        grid-template-columns: 1fr;
+    }
+    .aboutcontainer{
+        row-gap: 40px;
+    }
+    .subtitlecenter{
+        margin-bottom: 45px;
+    }
+    .skillscontainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .resumecontainer{
+        row-gap: 45px;
+    }
+    .resumeitem:not(:last-child){
+        margin-bottom: 45px;
+    }
+    .separator{
+        margin: 65px auto 50px;
+    }
+    .portfoliocontainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contactcontainer{
+        row-gap: 48px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 10px;
+    }
+    .colorblock {
+        display: none;
+    }
+    .homeimg{
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+        margin-top: auto;
+    }
+    .homecontent{
+        max-width: 500px;
+        text-align: center;
+        margin-bottom: auto;
+    }
+    .hometittle{
+        padding-left: 0;
+    }
+    .hometitle::before{
+        all: unset;
+    }
+    .hometitle span {
+        display: block;
+    }
+    .container{
+        max-width: 540px;
+    }
+    .portfoliomodal-content{
+        padding: 25px 20px;
+    }
+    .modalclose{
+        top: -9%;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navtoggle{
+        top: 20px;
+        right: 15px;
+    }
+    .navlink{
+        column-gap: 20px;
+    }
+    .navicon,
+    .navname{
+        font-size: var(--h3-font-size);
+    }
+    .skillscontainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .portfoliocontainer{
+        grid-template-columns: 1fr;
+    }
+    .modallist{
+        grid-template-columns: 1fr;
+    }
+    .modalimg{
+        height: 300px;
+    }
+    .forminput-group{
+        grid-template-columns: 1fr;
+    }
+    .themeimg{
+        width: 25px;
+    }
+    .styleswitcher-toggler,
+    .themetoggler{
+        width: 40px;
+        height: 40px;
+    }
+    .styleswitcher-toggler{
+        top: 15%;
+    }
+    .themetoggler{
+        bottom: 15%;
+    }
+    .styleswitcher-close{
+        top: 5%;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    /* .homeimg{
+        display: none;
+    } */
+    .homecontent{
+        margin-block: auto;
+        text-align: left;
+    }
+    .hometitle{
+        font-size: var(--h1-font-size);
+    }
+    .homedescription{
+        text-align: justify;
+    }
+    .infotitle{
+        display: block;
+        margin-bottom: 4px;
+    }
+    .statsbox{
+        padding: 15px 15px 25px 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .hometitle span{
+        display: inline;
+    }
+    .stats{
+        grid-template-columns: 1fr;
+    }
+}
