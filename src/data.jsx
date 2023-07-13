@@ -241,7 +241,8 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://63b3e2cad802a6296d23b0a0--demomas.netlify.app/',
+        des: 'https://63b3e2cad802a6296d23b0a0--santhosh-fsd-project.netlify.app/',
+        click: "click here",
       },
     ],
   },
@@ -269,7 +270,8 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://644e70711e322e544b3bf85f--demomas.netlify.app/',
+        des: 'https://644e70711e322e544b3bf85f--santhosh-fsd-project.netlify.app/',
+        click: "click here",
       },
     ],
   },

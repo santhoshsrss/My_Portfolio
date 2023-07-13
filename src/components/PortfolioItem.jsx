@@ -38,7 +38,7 @@ const PortfolioItem = ({img, title, details}) => {
              <h3 className="modaltitle">{title}</h3>
              
              <ul className="modallist grid">
-                 {details.map(({icon, title, desc}, index) => {
+                 {details.map(({icon, title, desc, des, click}, index) => {
                   return(
                      <li className="modalitem" key={index}>
                          <span className='itemicon'>{icon}</span>
@@ -46,6 +46,8 @@ const PortfolioItem = ({img, title, details}) => {
                          <div>
                              <span className="itemtitle">{title}</span>
                              <span className="itemdetails">{desc}</span>
+                             <a href={des} target='_blank' rel="noreferrer" className='"itemdetails"'>{click}
+                             </a>
                          </div>
                      </li>
                   )   
